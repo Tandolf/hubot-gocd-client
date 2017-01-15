@@ -1,4 +1,4 @@
-# hubot-gocd-client
+# hubot-gocd-client [![Build Status](https://travis-ci.org/Tandolf/hubot-gocd-client.svg?branch=master)](https://travis-ci.org/Tandolf/hubot-gocd-client)
 
 a gocd client that lets you control gocd from hubot
 
