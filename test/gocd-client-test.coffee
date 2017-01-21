@@ -2,10 +2,9 @@ Helper = require('hubot-test-helper')
 chai = require 'chai'
 
 expect = chai.expect
-
 helper = new Helper('../src/gocd-client.coffee')
 
-describe 'gocd-client', ->
+describe 'hubot-gocd-client', ->
   beforeEach ->
     @room = helper.createRoom()
 

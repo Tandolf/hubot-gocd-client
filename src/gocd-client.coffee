@@ -1,3 +1,5 @@
+VersionService = require './services/versionservice'
+
 # Description
 #   a script that makes it possible to communicate with gocd
 #
@@ -23,15 +25,9 @@ module.exports = (robot) ->
 
   host = process.env.GOCD_HOST;
 
-  robot.respond /gocd version/i, (msg) ->
-    robot.http(host + "/go/api/version")
-    .header('Accept', 'application/vnd.go.cd.v1+json')
-    .get() (err, res, body) ->
-      if err
-        msg.reply "Encountered an error :( #{err}"
-        return
-      data = JSON.parse body
-      msg.reply data.version
+  robot.respond /gocd version/i, (conversation) ->
+    versionService = new VersionService(robot);
+    versionService.get conversation;
 
   user = 'badger'
   pass = 'badger'
