@@ -2,7 +2,7 @@
 
 a gocd client that lets you control gocd from hubot
 
-See [`src/gocd-Clients.coffee`](src/gocd-Clients.coffee) for full documentation.
+See [`src/gocd-client.coffee`](src/gocd-client.coffee) for full documentation.
 
 ## Installation
 
