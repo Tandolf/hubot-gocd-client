@@ -1,4 +1,4 @@
-Client = require './client'
+Client = require './Clients'
 
 class VersionService extends Client
 

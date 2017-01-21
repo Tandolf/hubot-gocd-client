@@ -1,4 +1,4 @@
-VersionService = require './services/versionservice'
+VersionService = require './services/VersionServices'
 
 # Description
 #   a script that makes it possible to communicate with gocd
