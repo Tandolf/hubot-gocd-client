@@ -1,8 +1,8 @@
 class Client
 
-  constructor: (robot, path) ->
-    @robot = robot.http(process.env.GOCD_HOST + '/go/api' + path)
-    .header('Accept', 'application/vnd.go.cd.v1+json')
+  constructor: (robot) ->
+    console.log process.env.GOCD_HOST
+    @http = robot.http(process.env.GOCD_HOST)
 
 module.exports = Client
 
