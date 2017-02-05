@@ -21,15 +21,15 @@
     "chai": "latest",
     "co": "latest",
     "coffee-script": "1.12.3",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-mocha-test": "~0.12.7",
-    "grunt-release": "~0.11.0",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-mocha-test": "~0.13.2",
+    "grunt-release": "0.14.0",
     "hubot-test-helper": "^1.3.0",
     "matchdep": "latest",
     "mocha": "latest",
-    "sinon": "latest"
+    "sinon": "1.17.7"
   },
   "main": "index.coffee",
   "scripts": {
